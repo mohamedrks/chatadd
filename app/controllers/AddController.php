@@ -19,7 +19,9 @@ class AddController extends \BaseController
 
     public function index()
     {
-        return Add::all();
+        $adds = Add::all();
+
+        return $adds->toJson();
     }
 
     public function getSubscribedAdds(){
