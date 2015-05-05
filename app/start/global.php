@@ -87,9 +87,9 @@ App::down(function()
 
 require app_path().'/filters.php';
 
-define('DB_SERVER_IP','localhost');
-define('DB_SERVER_NAME','dev');
-define('DB_SERVER_USER_NAME','chatadd');
-define('DB_SERVER_PASSWORD','infoways_123');
+define('DB_SERVER_IP','128.199.105.74:8082');
+define('DB_SERVER_NAME','localhost');
+define('DB_SERVER_USER_NAME','dgwzvmvycs');
+define('DB_SERVER_PASSWORD','');
 
 setlocale(LC_MONETARY,"en_US");
