@@ -17,7 +17,7 @@ header('Access-Control-Allow-Origin: *');
 //header('Access-Control-Allow-Methods', 'GET,POST,PUT,HEAD,DELETE,TRACE,COPY,LOCK,MKCOL,MOVE,PROPFIND,PROPPATCH,UNLOCK,REPORT,MKACTIVITY,CHECKOUT,MERGE,M-SEARCH,NOTIFY,SUBSCRIBE,UNSUBSCRIBE,PATCH');
 //header('Access-Control-Allow-Credentials', 'false');
 //header('Access-Control-Max-Age', '1000');
-Route::resource('add','AddController');
+
 
 Route::group(array('prefix' => 'api/v1'), function()
 {
@@ -28,7 +28,7 @@ Route::group(array('prefix' => 'api/v1'), function()
 
     Route::get('getSubscribedAdds','AddController@getSubscribedAdds');
     Route::get('getAllAddsByUser','AddController@getAllAddsByUser');
-
+    Route::resource('add','AddController');
 
 
     Route::resource('category','CategoryController');
@@ -334,5 +334,7 @@ Route::group(array('prefix' => 'api/v1'), function()
         return Response::json(Authorizer::issueAccessToken());
     });
 
-
+    Route::get('testing', function() {
+        return 'You got here thanks ';
+    });
 });
