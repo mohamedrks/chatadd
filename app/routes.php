@@ -336,6 +336,6 @@ Route::group(array('prefix' => 'api/v1'), function()
 
     Route::get('testing', function() {
 
-       return Response::json('this was success', 500);
+       return Response::json(array('name' => 'Steve', 'state' => 'CA'));
     });
 });
