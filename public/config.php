@@ -16,6 +16,6 @@ define('TWITTER_ACCESS_KEY', '1547993060-mLjxB558deQdys7IHkcAjIEv7IDZQ2pxYRqaSJK
 define('TWITTER_ACCESS_SECRET', '2zWlTYyn7abDWDQvroKLKhIqZgVwkuLBRGc322JAg9ceZ');
 
 define('DB_SERVER_IP','localhost');
-define('DB_SERVER_NAME','dgwzvmvycs');
-define('DB_SERVER_USER_NAME','dgwzvmvycs');
-define('DB_SERVER_PASSWORD','Jr5E2PqeGJ');
+define('DB_SERVER_NAME','wwuqxvftfg');
+define('DB_SERVER_USER_NAME','wwuqxvftfg');
+define('DB_SERVER_PASSWORD','JYu2MYy9Wj');
