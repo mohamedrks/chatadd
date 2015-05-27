@@ -88,8 +88,8 @@ App::down(function()
 require app_path().'/filters.php';
 
 define('DB_SERVER_IP','localhost');
-define('DB_SERVER_NAME','dgwzvmvycs');
-define('DB_SERVER_USER_NAME','dgwzvmvycs');
-define('DB_SERVER_PASSWORD','Jr5E2PqeGJ');
+define('DB_SERVER_NAME','wwuqxvftfg');
+define('DB_SERVER_USER_NAME','wwuqxvftfg');
+define('DB_SERVER_PASSWORD','JYu2MYy9Wj');
 
 setlocale(LC_MONETARY,"en_US");
