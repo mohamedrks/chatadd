@@ -13,7 +13,8 @@
         "graham-campbell/flysystem": "~1.0",
         "league/flysystem-copy": "~1.0",
         "thujohn/pdf": "dev-master",
-        "cartalyst/sentry": "2.1.*"
+        "cartalyst/sentry": "2.1.*",
+        "patchwork/utf8": "1.1.*"
 
     },
 
